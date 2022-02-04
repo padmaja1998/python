@@ -1,0 +1,10 @@
+print("welcome to our cafe ")
+name=input(" can i know your name please? \n")
+print("hello" + name + " Nice to see you here today \n " )
+menu ="Dosa\n, idly\n, upma\n"
+order=input("Here is our menu\n" + menu + "can i know you order please\n")
+quantity=input("can i know the quantity of your order? \n")
+price= 8
+print("your order" + order + "will be ready in few minutes \n")
+total=price*int(quantity)
+print("your total is " + str(total) + " have a nice day,seen you again ")
